@@ -1,5 +1,6 @@
 [[redirects]]
-  from = "*"
-  to = "http://158.101.3.176/:splat"
+  from = "/oracle/*"
+  to = "http://wssurl.com/:splat"
   status = 200
   force = true
+  headers = {Connection = "upgrade", Upgrade = "websocket"}
